@@ -1,4 +1,4 @@
+/// This represents the Formigas MVC library base dependency.
 library formigas_mvc;
 
-export 'src/controller.dart';
-export 'src/view.dart';
+export 'src/mvc.dart';
