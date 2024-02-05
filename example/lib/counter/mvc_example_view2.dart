@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:formigas_mvc/formigas_mvc.dart';
-import 'package:formigas_mvc_example/src/mvc_example_controller.dart';
-import 'package:formigas_mvc_example/src/mvc_example_model.dart';
+import 'package:formigas_mvc_example/counter/mvc_example_controller.dart';
+import 'package:formigas_mvc_example/counter/mvc_example_model.dart';
 
 /// Stateful MVC Widget
 class StatefulMViewCExample extends StatefulWidget {
