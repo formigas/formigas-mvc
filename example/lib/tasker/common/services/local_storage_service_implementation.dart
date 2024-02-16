@@ -7,7 +7,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class LocalStorageServiceImpl implements LocalStorageService {
   LocalStorageServiceImpl() {
-    SharedPreferences.getInstance().then(_prefs.complete);
+    SharedPreferences.getInstance()
+        .then(_prefs.complete)
+        .onError(_prefs.completeError);
   }
 
   final _prefs = Completer<SharedPreferences>();
