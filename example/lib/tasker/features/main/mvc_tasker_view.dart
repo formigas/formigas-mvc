@@ -26,7 +26,7 @@ class MainTaskerScreen extends MViewC<TaskerController, TaskerModel> {
       child: Column(
         children: [
           Icon(Icons.hourglass_empty_rounded),
-          Text('No task do far'),
+          Text('No task so far'),
         ],
       ),
     );

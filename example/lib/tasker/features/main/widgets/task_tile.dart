@@ -54,6 +54,7 @@ class _TaskTileState extends State<TaskTile> {
       ),
       direction: DismissDirection.endToStart,
       child: CheckboxListTile(
+        key: ValueKey(task.id),
         title: Text(task.title),
         subtitle: showDescription ? Text(task.description!) : null,
         value: task.isCompleted,
