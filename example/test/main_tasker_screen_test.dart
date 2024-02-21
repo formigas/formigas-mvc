@@ -4,6 +4,7 @@ import 'package:formigas_mvc_example/tasker/common/models/task.dart';
 import 'package:formigas_mvc_example/tasker/features/main/mvc_tasker_controller.dart';
 import 'package:formigas_mvc_example/tasker/features/main/mvc_tasker_model.dart';
 import 'package:formigas_mvc_example/tasker/features/main/mvc_tasker_view.dart';
+import 'package:formigas_mvc_example/tasker/features/main/widgets/add_task_dialog.dart';
 import 'package:formigas_mvc_example/tasker/features/main/widgets/task_tile.dart';
 
 class TaskerControllerMock extends TaskerController {
@@ -45,7 +46,7 @@ void main() {
     );
   }
 
-  group('TaskerScreen ', () {
+  group('TaskerScreen', () {
     testWidgets(
       'builds EmptyView',
       (WidgetTester tester) async {
@@ -134,7 +135,7 @@ void main() {
     );
   });
 
-  group('TaskerScreen ', () {
+  group('TaskerScreen', () {
     testWidgets('add new Task', (tester) async {
       await pumpWidget(tester);
 
@@ -147,7 +148,7 @@ void main() {
       await tester.pumpAndSettle();
 
       // Verify the AddTaskDialog is shown
-      expect(find.byType(AlertDialog), findsOneWidget);
+      expect(find.byType(AddTaskDialog), findsOneWidget);
 
       // Enter the task title and description
       await tester.enterText(
