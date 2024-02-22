@@ -12,8 +12,12 @@ class MViewCExample extends MViewC<ExampleController, ExampleModel> {
 
   @override
   Widget build(BuildContext context, ExampleModel model) => Scaffold(
-        appBar: AppBar(title: const Text('MViewCExample')),
-        body: Center(child: Text('Counter: ${model.value}')),
+        appBar: AppBar(
+          title: const Text('MViewCExample'),
+        ),
+        body: Center(
+          child: Text('Counter: ${model.value}'),
+        ),
         floatingActionButton: FloatingActionButton(
           onPressed: controller.increaseAndShuffleColor,
           backgroundColor: model.color,
