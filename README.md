@@ -1,5 +1,5 @@
 <p align="center">
-<img src="doc/main_logo.png" height="200" alt="Formigas" />
+  <img src="https://github.com/formigas/formigas-mvc/blob/main/doc/main_logo.png?raw=true" alt="formigas logo" height="200" />
 </p>
 
 # formigas_mvc
@@ -10,7 +10,9 @@ Formigas MVC is MVC based state managment library for Flutter.
 
 The goal of Formigas MVC is to provide a simple and easy to use state management library for Flutter based on MVC software design pattern. It is a lightweight library that is easy to understand and use.
 
-![alt text](doc/image.png)
+<p align="center">
+  <img src="https://github.com/formigas/formigas-mvc/blob/main/doc/image.png?raw=true" height="500" alt="MVC flow" />
+</p>
 
 ### Model
 

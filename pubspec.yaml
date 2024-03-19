@@ -1,6 +1,6 @@
 name: formigas_mvc
 description: MVC library for Flutter we use here at https://formigas.io
-version: 0.0.1
+version: 0.0.3
 homepage: https://formigas.io
 
 environment:
