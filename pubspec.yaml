@@ -1,6 +1,6 @@
 name: formigas_mvc
-description: MVC library for Flutter we use here at https://formigas.io
-version: 0.0.3
+description: Model-view-controller state management library for flutter, which we use here in our daily business at https://formigas.io
+version: 1.0.0
 homepage: https://formigas.io
 
 environment:
